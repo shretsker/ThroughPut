@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.26.4
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    restart: on-failure:0
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      ASYNC_INDEXING: "true"
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+      DEFAULT_VECTORIZER_MODULE: "none"
+      ENABLE_MODULES: "text2vec-openai"
+      CLUSTER_HOSTNAME: "node1"
+
+  backend:
+    build:
+      context: .
+      dockerfile: dockerfile.backend
+    ports:
+      - "6789:5678"
+    depends_on:
+      - weaviate
+    environment:
+      - WEAVIATE_URL=http://weaviate:8080
+
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile.frontend
+    ports:
+      # - "3000:3001"
+      - "5180:3001" # Map container port 5173 to host port 5180
+    depends_on:
+      - backend
+    environment:
+      # - REACT_APP_BACKEND_URL=http://localhost:6789
+      - REACT_APP_BACKEND_URL=http://18.204.9.187:6789 # Ensure this is the correct IP and port for backend
+
+  monitoring:
+    build:
+      context: .
+      dockerfile: dockerfile.monitoring
+    environment:
+      - BOT_TOKEN=7010822438:AAG2DYHUtHSm_KoVVVqua6Oucee_eZEOa58
+      - TEST_GROUP_ID=-4670004307
+    restart: unless-stopped
+
+volumes:
+  weaviate_data:
+    driver: local

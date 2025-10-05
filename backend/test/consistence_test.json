@@ -1,0 +1,222 @@
+[
+  {
+    "prompt": "List COM Express modules with Intel processors and DDR4 memory support",
+    "variations": [
+      "List COM Express modules that include Intel CPUs and support DDR4 memory",
+      "Show Intel-powered COM Express boards with DDR4 RAM compatibility",
+      "What COM Express modules feature Intel processors and DDR4 memory?",
+      "Display COM Express solutions with Intel CPUs and support for DDR4 memory",
+      "Enumerate COM Express products equipped with Intel processors and DDR4 RAM"
+    ],
+    "description": "CON_01: Tests consistency in recognizing form factor, processor manufacturer, and memory type requirements"
+  },
+  {
+    "prompt": "Show me MINI-ITX boards that include ARM architecture and support LPDDR4 memory",
+    "variations": [
+      "Show MINI-ITX boards with ARM architecture and LPDDR4 memory support",
+      "List MINI-ITX systems featuring ARM processors and LPDDR4 RAM compatibility",
+      "What MINI-ITX boards have ARM architecture and support for LPDDR4 memory?",
+      "Display MINI-ITX modules equipped with ARM CPUs and LPDDR4 memory",
+      "Enumerate MINI-ITX products that include ARM architecture and LPDDR4 RAM support"
+    ],
+    "description": "CON_02: Tests consistency in identifying form factor, processor architecture, and memory technology requirements"
+  },
+  {
+    "prompt": "List DIN RAIL mounted systems with X86 architecture and support for Windows operating system",
+    "variations": [
+      "Show DIN RAIL systems featuring X86 processors and Windows OS compatibility",
+      "What DIN RAIL mounted devices use X86 architecture and run on Windows?",
+      "Display DIN RAIL modules with X86 CPUs and support Windows operating system",
+      "Enumerate DIN RAIL products equipped with X86 processors and Windows OS",
+      "Find DIN RAIL mounted boards that include X86 architecture and Windows support"
+    ],
+    "description": "CON_03: Tests consistency in recognizing form factor, processor architecture, and operating system requirements"
+  },
+  {
+    "prompt": "List COM Express modules featuring NXP CPUs and eMMC storage",
+    "variations": [
+      "Show me COM Express modules having NXP CPUs and eMMC storage",
+      "What COM Express systems use NXP processors and include eMMC storage?",
+      "Display COM Express solutions with NXP architecture and eMMC storage support",
+      "Enumerate COM Express products equipped with NXP processors and eMMC storage",
+      "Identify COM Express form factor boards equipped with NXP-brand processors and featuring eMMC storage solutions."
+    ],
+    "description": "CON_04: Tests consistency in identifying form factor, processor manufacturer, and storage type requirements"
+  },
+  {
+    "prompt": "List MINI-ITX systems with ARM architecture and support for DDR4 32GB memory",
+    "variations": [
+      "Show MINI-ITX boards featuring ARM processors and 32GB DDR4 memory support",
+      "What MINI-ITX modules use ARM architecture and include 32GB DDR4 RAM?",
+      "Display MINI-ITX devices equipped with ARM CPUs and 32GB DDR4 memory",
+      "Enumerate MINI-ITX products with ARM architecture and supporting 32GB DDR4 memory",
+      "Find MINI-ITX mounted boards that include ARM processors and 32GB DDR4 RAM"
+    ],
+    "description": "CON_05: Tests consistency in recognizing form factor, processor architecture, and memory capacity requirements"
+  },
+  {
+    "prompt": "I'm seeking DIN RAIL systems that incorporate X86 architecture and operate on Windows IOT",
+    "variations": [
+      "Looking for DIN RAIL mounted devices with X86 processors running Windows IOT",
+      "Need DIN RAIL boards featuring X86 architecture and Windows IOT operating system",
+      "Require DIN RAIL modules equipped with X86 CPUs and Windows IOT support",
+      "Searching for DIN RAIL products using X86 processors and compatible with Windows IOT",
+      "Interested in DIN RAIL systems that have X86 architecture and support Windows IOT"
+    ],
+    "description": "CON_06: Ensures consistent extraction of form factor, processor architecture, and Windows IOT operating system from varied phrasings"
+  },
+  {
+    "prompt": "Our project demands COM Express boards utilizing NXP processors coupled with DDR4 memory",
+    "variations": [
+      "We need COM Express modules that use NXP CPUs and have DDR4 memory",
+      "Require COM Express systems equipped with NXP processors and DDR4 memory support",
+      "Looking for COM Express solutions featuring NXP architecture and DDR4 memory",
+      "Seeking COM Express products with NXP processors and integrated DDR4 memory",
+      "Looking to acquire COM Express mounted boards that include NXP processors and DDR4 memory"
+    ],
+    "description": "CON_07: Validates consistency in recognizing form factor, processor manufacturer, and memory type across different expressions"
+  },
+  {
+    "prompt": "Coordinate acquiring MINI-ITX units that support ARM architecture along with DDR4 memory",
+    "variations": [
+      "Coordinate procurement of MINI-ITX boards featuring ARM processors and DDR4 RAM",
+      "Arrange for MINI-ITX systems equipped with ARM architecture and DDR4 memory support",
+      "Plan to acquire MINI-ITX modules that include ARM CPUs and DDR4 memory",
+      "Manage the acquisition of MINI-ITX products with ARM architecture and DDR4 RAM",
+      "Organize the purchase of MINI-ITX mounted boards supporting ARM processors and DDR4 memory"
+    ],
+    "description": "CON_08: Tests consistency in identifying form factor, processor architecture, and memory type through diverse sentence structures"
+  },
+  {
+    "prompt": "Identify COM Express form factor boards equipped with Intel X86 processors and featuring SATA storage solutions.",
+    "variations": [
+      "Looking for COM Express systems that utilize Intel X86 CPUs and incorporate SATA storage.",
+      "Seeking out COM Express modules powered by Intel X86 processors and supporting SATA memory.",
+      "Searching for COM Express solutions integrating Intel X86 processors with SATA storage.",
+      "Want to find COM Express mounted boards that employ Intel X86 CPUs and have SATA storage.",
+      "Need COM Express products that include Intel X86 processors coupled with SATA storage."
+    ],
+    "description": "CON_09: Tests consistency in recognizing form factor, processor manufacturer, architecture, memory type, and storage type requirements"
+  },
+  {
+    "prompt": "Locate COM Express modules that use NXP ARM processors and integrate NVMe storage.",
+    "variations": [
+      "Seeking COM Express systems powered by NXP ARM CPUs with NVMe storage.",
+      "Looking for COM Express solutions that utilize NXP ARM processors and support NVMe memory.",
+      "Find COM Express boards equipped with NXP ARM processors and featuring NVMe storage.",
+      "Searching for COM Express products that include NXP ARM CPUs and have NVMe storage solutions.",
+      "Identify COM Express mounted boards incorporating NXP ARM processors alongside NVMe storage."
+    ],
+    "description": "CON_10: Ensures consistent extraction of form factor, processor manufacturer, architecture, and storage type from varied phrasings"
+  },
+  {
+    "prompt": "Discover DIN RAIL systems with Intel X86 processors and support for Linux operating systems.",
+    "variations": [
+      "Looking for DIN RAIL devices that include Intel X86 CPUs and are compatible with Linux OS.",
+      "Seeking DIN RAIL modules powered by Intel X86 processors and running Linux operating systems.",
+      "Find DIN RAIL solutions integrating Intel X86 processors with Linux OS support.",
+      "Need DIN RAIL mounted boards equipped with Intel X86 CPUs and supporting Linux OS.",
+      "Identify DIN RAIL products that utilize Intel X86 processors and are compatible with Linux operating systems."
+    ],
+    "description": "CON_11: Tests consistency in recognizing form factor, processor manufacturer, architecture, operating system requirements"
+  },
+  {
+    "prompt": "Type DIN RAIL mounted boards utilizing NXP X86 processors and featuring eMMC storage.",
+    "variations": [
+      "Looking for DIN RAIL systems with NXP X86 CPUs and eMMC storage support.",
+      "Seeking DIN RAIL modules powered by NXP X86 processors and integrating eMMC storage.",
+      "Find DIN RAIL solutions that include NXP X86 processors and feature eMMC memory.",
+      "Need DIN RAIL devices equipped with NXP X86 CPUs and eMMC storage solutions.",
+      "Identify DIN RAIL mounted boards that utilize NXP X86 processors and support eMMC storage."
+    ],
+    "description": "CON_12: Ensures consistent extraction of form factor, processor manufacturer, architecture, and storage type from varied phrasings"
+  },
+  {
+    "prompt": "Coordinate acquisition of MINI-ITX boards with Intel X86 processors and LPDDR4 memory modules.",
+    "variations": [
+      "Arrange procurement of MINI-ITX systems that include Intel X86 CPUs and have LPDDR4 memory.",
+      "Organize MINI-ITX modules powered by Intel X86 processors and supporting LPDDR4 memory.",
+      "Manage purchase of MINI-ITX solutions integrating Intel X86 processors with LPDDR4 RAM.",
+      "Plan to acquire MINI-ITX mounted boards equipped with Intel X86 CPUs and LPDDR4 memory modules.",
+      "Seek MINI-ITX products that utilize Intel X86 processors and feature LPDDR4 memory support."
+    ],
+    "description": "CON_13: Tests consistency in recognizing form factor, processor manufacturer, architecture, and memory type requirements"
+  },
+  {
+    "prompt": "Arrange for DIN RAIL mounted systems with Intel X86 processors, SATA storage, and operating on Windows OS.",
+    "variations": [
+      "Organize DIN RAIL devices that include Intel X86 CPUs, SATA storage, and run Windows OS.",
+      "Seek DIN RAIL modules powered by Intel X86 processors, featuring SATA storage, and supporting Windows operating systems.",
+      "Find DIN RAIL solutions integrating Intel X86 processors with SATA storage and Windows OS compatibility.",
+      "Plan to acquire DIN RAIL mounted boards equipped with Intel X86 CPUs, SATA storage, and running Windows OS.",
+      "Look for DIN RAIL products that utilize Intel X86 processors, incorporate SATA storage, and support Windows operating systems."
+    ],
+    "description": "CON_14: Ensures consistent extraction of form factor, processor manufacturer, architecture, storage type, and operating system from varied phrasings"
+  },
+  {
+    "prompt": "Identify embedded systems that come with COM Express form factor, NXP ARM processors, and dual Ethernet ports.",
+    "variations": [
+      "Seeking embedded devices with COM Express form factor, featuring NXP ARM CPUs and dual Ethernet interfaces.",
+      "Looking for COM Express mounted systems equipped with NXP ARM processors and two Ethernet ports.",
+      "Find COM Express solutions that include NXP ARM CPUs and support dual Ethernet connectivity.",
+      "Need embedded boards that utilize COM Express form factor, integrate NXP ARM processors, and have dual Ethernet ports.",
+      "Search for COM Express products featuring NXP ARM processors and offering two Ethernet interfaces."
+    ],
+    "description": "CON_15: Tests consistency in recognizing form factor, processor manufacturer, architecture, and I/O interface requirements"
+  },
+  {
+    "prompt": "Discover systems using MINI-ITX form factor, Intel X86 processors, and NVMe storage support.",
+    "variations": [
+      "Looking for MINI-ITX modules that include Intel X86 CPUs and support NVMe storage.",
+      "Seeking MINI-ITX solutions featuring Intel X86 processors and NVMe memory support.",
+      "Find MINI-ITX mounted boards equipped with Intel X86 processors and NVMe storage solutions.",
+      "Need MINI-ITX devices that utilize Intel X86 CPUs and integrate NVMe storage.",
+      "Identify MINI-ITX products with Intel X86 processors and featuring NVMe storage support."
+    ],
+    "description": "CON_16: Ensures consistent extraction of form factor, processor manufacturer, architecture, and storage type from varied phrasings"
+  },
+  {
+    "prompt": "Locate COM Express systems that integrate NXP ARM processors, support for LINUX OS, and operate temperatures down to -40°C.",
+    "variations": [
+      "Seeking COM Express devices with NXP ARM CPUs, compatible with Linux OS, and capable of -40°C operation.",
+      "Looking for COM Express modules that include NXP ARM processors, support Linux systems, and have a minimum operating temperature of -40°C.",
+      "Find COM Express solutions featuring NXP ARM processors, LINUX OS compatibility, and operating at -40°C.",
+      "Need COM Express mounted boards equipped with NXP ARM CPUs, running Linux, and supporting -40°C operation.",
+      "Identify COM Express products that utilize NXP ARM processors, support Linux OS, and can operate at -40°C."
+    ],
+    "description": "CON_17: Tests consistency in recognizing form factor, processor manufacturer, architecture, operating system, and temperature requirements"
+  },
+  {
+    "prompt": "Redeploy DIN RAIL devices utilizing Intel X86 processors and NVMe storage support.",
+    "variations": [
+      "Seeking DIN RAIL systems equipped with Intel X86 CPUs and NVMe storage capabilities.",
+      "Looking for DIN RAIL-mounted boards that incorporate Intel X86 processors and support NVMe storage.",
+      "Need DIN RAIL devices that utilize Intel X86 architecture and offer NVMe storage solutions.",
+      "Searching for DIN RAIL form factor systems with Intel X86 processors and integrated NVMe storage.",
+      "Require DIN RAIL modules featuring Intel X86 CPUs and compatible with NVMe storage."
+    ],
+    "description": "CON_18: Ensures consistent extraction of form factor, processor manufacturer, architecture, and storage type from varied phrasings"
+  },
+  {
+    "prompt": "Seek MINI-ITX boards featuring NXP ARM processors with LPDDR4 memory and eMMC storage capabilities.",
+    "variations": [
+      "Looking for MINI-ITX modules that include NXP ARM CPUs, support LPDDR4 memory, and have eMMC storage.",
+      "Seeking MINI-ITX systems equipped with NXP ARM processors, LPDDR4 memory, and eMMC storage support.",
+      "Find MINI-ITX solutions that utilize NXP ARM CPUs, feature LPDDR4 memory, and incorporate eMMC storage.",
+      "Need MINI-ITX mounted boards with NXP ARM processors, LPDDR4 memory, and eMMC storage solutions.",
+      "Identify MINI-ITX products that include NXP ARM processors, support LPDDR4 memory, and offer eMMC storage."
+    ],
+    "description": "CON_19: Tests consistency in recognizing form factor, processor manufacturer, architecture, memory type, and storage type requirements"
+  },
+  {
+    "prompt": "Redeploy COM EXPRESS devices with INTEL X86 processors and NVMe storage.",
+    "variations": [
+      "Looking for COM EXPRESS systems that include INTEL X86 CPUs and support NVMe storage.",
+      "Seeking COM EXPRESS modules featuring INTEL X86 processors and NVMe storage solutions.",
+      "Find COM EXPRESS solutions that use INTEL X86 processors and incorporate NVMe storage.",
+      "Need COM EXPRESS mounted boards with INTEL X86 CPUs and NVMe storage support.",
+      "Identify COM EXPRESS products that utilize INTEL X86 processors and offer NVMe storage."
+    ],
+    "description": "CON_20a: Ensures consistent extraction of form factor, processor manufacturer, architecture, and storage type from varied phrasings"
+  }
+]

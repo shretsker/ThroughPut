@@ -1,0 +1,176 @@
+[
+  {
+    "description": "FI_001: Tests form factor with certification and temperature filters",
+    "prompt": "I need a DIN RAIL board with EN 50155 certification for -40°C to 85°C operation",
+    "expected_filters": {
+      "formFactor": "DIN RAIL",
+      "certifications": "EN 50155",
+      "operatingTemperatureMin": "-40°C",
+      "operatingTemperatureMax": "85°C"
+    }
+  },
+  {
+    "description": "FI_002: Tests extraction of processor-specific details and networking requirements",
+    "prompt": "Find boards with quad-core ARM processors and dual GbE",
+    "expected_filters": {
+      "processorArchitecture": "ARM",
+      "processorCoreCount": "4",
+      "ioCount": "DUAL GBE"
+    }
+  },
+  {
+    "description": "FI_003: Tests form factor with processor and memory filters",
+    "prompt": "Show me COM Express modules with 11th Gen Intel Core, ECC memory support",
+    "expected_filters": {
+      "formFactor": "COM EXPRESS",
+      "processorArchitecture": "INTEL CORE",
+      "memory": "ECC"
+    }
+  },
+  {
+    "description": "FI_004: Tests operating system compatibility and wireless connectivity feature extraction",
+    "prompt": "Looking for an SBC that runs Ubuntu and has WiFi 5",
+    "expected_filters": {
+      "formFactor": "SBC",
+      "operatingSystemBsp": "UBUNTU",
+      "wireless": "WI-FI 5"
+    }
+  },
+  {
+    "description": "FI_005: Tests extraction of manufacturer and specific I/O interface requirements",
+    "prompt": "Find all Advantech products with USB 3.0 support",
+    "expected_filters": {
+      "manufacturer": "ADVANTECH",
+      "ioCount": "USB 3.0"
+    }
+  },
+  {
+    "description": "FI_006: Tests temperature range and storage interface requirements",
+    "prompt": "Need boards with NVMe storage that operate at -40°C",
+    "expected_filters": {
+      "onboardStorage": "NVME",
+      "operatingTemperatureMin": "-40°C"
+    }
+  },
+  {
+    "description": "FI_007: Tests memory capacity and wireless connectivity combinations",
+    "prompt": "Show modules with at least 32GB RAM and Bluetooth 5 support",
+    "expected_filters": {
+      "memory": ">=32.0GB",
+      "wireless": [
+        "BLUETOOTH 5+"
+      ]
+    }
+  },
+  {
+    "description": "FI_008: Tests input voltage and form factor requirements",
+    "prompt": "Find DIN rail mounted devices that accept 24V power input",
+    "expected_filters": {
+      "formFactor": "DIN RAIL",
+      "inputVoltage": "24.0V"
+    }
+  },
+  {
+    "description": "FI_009: Tests processor manufacturer and architecture combinations",
+    "prompt": "List all NXP ARM-based processors with eMMC storage",
+    "expected_filters": {
+      "processorManufacturer": "NXP",
+      "processorArchitecture": "ARM",
+      "onboardStorage": "EMMC"
+    }
+  },
+  {
+    "description": "FI_010: Tests operating system and temperature requirements for specific applications",
+    "prompt": "Need Windows IoT compatible boards operating from -40°C to 85°C",
+    "expected_filters": {
+      "operatingSystemBsp": "WINDOWS IOT",
+      "operatingTemperatureMin": "-40°C",
+      "operatingTemperatureMax": "85°C"
+    }
+  },
+  {
+    "description": "FI_011: Tests TDP and form factor combinations",
+    "prompt": "Find Mini-ITX boards with processors under 15W TDP",
+    "expected_filters": {
+      "formFactor": "MINI-ITX",
+      "processorTdp": "<=15.0W"
+    }
+  },
+  {
+    "description": "FI_012: Tests certification and storage requirements extraction",
+    "prompt": "Find MIL-STD-810 certified boards with SATA storage",
+    "expected_filters": {
+      "certifications": "MIL-STD-810",
+      "onboardStorage": "SATA"
+    }
+  },
+  {
+    "description": "FI_013: Tests storage and memory type combinations",
+    "prompt": "Need boards with eMMC storage and LPDDR4 memory",
+    "expected_filters": {
+      "onboardStorage": "EMMC",
+      "memory": "LPDDR4"
+    }
+  },
+  {
+    "description": "FI_014: Tests multiple I/O interface requirements",
+    "prompt": "Find boards with SATA 3.0 and PCIe Gen 4 support",
+    "expected_filters": {
+      "ioCount": [
+        "SATA 3.0",
+        "PCIE 4"
+      ] 
+    }
+  },
+  {
+    "description": "FI_015: Tests processor core count and memory requirements",
+    "prompt": "Show processors with 8 or more cores and 64GB memory support",
+    "expected_filters": {
+      "processorCoreCount": ">=8",
+      "memory": "64.0GB"
+    }
+  },
+  {
+    "description": "FI_016: Tests wireless capability combinations",
+    "prompt": "Find modules supporting both WiFi 5 and 5G connectivity",
+    "expected_filters": {
+      "wireless": [
+        "WI-FI 5",
+        "5G"
+      ]
+    }
+  },
+  {
+    "description": "FI_017: Tests operating system and processor architecture combinations",
+    "prompt": "List x86 boards compatible with both Windows and Linux",
+    "expected_filters": {
+      "processorArchitecture": "X86",
+      "operatingSystemBsp": ["WINDOWS", "LINUX"]
+    }
+  },
+  {
+    "description": "FI_018: Tests I/O and wireless requirements for specific use cases",
+    "prompt": "Needs Windows IoT boards with dual Ethernet and LTE support",
+    "expected_filters": {
+      "operatingSystemBsp": "WINDOWS IOT",
+      "ioCount": "ETHERNET",
+      "wireless": "LTE"
+    }
+  },
+  {
+    "description": "FI_019: Tests complex temperature and certification requirements",
+    "prompt": "Find boards with UL and CE certification operating up to 70°C",
+    "expected_filters": {
+      "certifications": ["UL", "CE"],
+      "operatingTemperatureMax": "70°C"
+    }
+  },
+  {
+    "description": "FI_020: Tests multiple manufacturer-specific requirements",
+    "prompt": "Show me Advantech or Kontron boards with Intel Atom processors",
+    "expected_filters": {
+      "manufacturer": ["ADVANTECH", "KONTRON"],
+      "processorArchitecture": "INTEL ATOM"
+    }
+  }
+]
